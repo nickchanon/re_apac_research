@@ -1,9 +1,11 @@
 name: Daily APAC Research Agents
 
 on:
-  # Runs at 07:00 BST (06:00 UTC) every weekday morning
+  # Runs at 07:00 BST (06:00 UTC) every weekday morning — competitor data pull
   schedule:
     - cron: "0 6 * * 1-5"
+    # Runs at 18:00 BST (17:00 UTC) every Friday — weekly market roundup summary
+    - cron: "0 17 * * 5"
 
   # Also allows manual trigger from the Actions tab
   workflow_dispatch:
@@ -19,12 +21,13 @@ on:
           - jll
           - savills
           - knightfrank
+          - summary
 
 jobs:
   run-agents:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to commit publications.json back to the repo
+      contents: write   # needed to commit JSON files back to the repo
 
     steps:
       - name: Checkout repository
@@ -45,33 +48,56 @@ jobs:
           git config user.name "APAC Research Agent"
           git config user.email "agents@re-apac-research.auto"
 
+      # ── Weekday competitor data agents (skip on Friday summary-only run) ──────
       - name: Run CBRE agent
-        if: ${{ github.event.inputs.agent == '' || github.event.inputs.agent == 'cbre' }}
+        if: |
+          (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1-5') ||
+          (github.event_name == 'workflow_dispatch' && (github.event.inputs.agent == '' || github.event.inputs.agent == 'cbre'))
         env:
           PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          TRIGGERED_BY: github-actions
         run: python agents/cbre_agent.py
 
       - name: Run JLL agent
-        if: ${{ github.event.inputs.agent == '' || github.event.inputs.agent == 'jll' }}
+        if: |
+          (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1-5') ||
+          (github.event_name == 'workflow_dispatch' && (github.event.inputs.agent == '' || github.event.inputs.agent == 'jll'))
         env:
           PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          TRIGGERED_BY: github-actions
         run: python agents/jll_agent.py
 
       - name: Run Savills agent
-        if: ${{ github.event.inputs.agent == '' || github.event.inputs.agent == 'savills' }}
+        if: |
+          (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1-5') ||
+          (github.event_name == 'workflow_dispatch' && (github.event.inputs.agent == '' || github.event.inputs.agent == 'savills'))
         env:
           PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          TRIGGERED_BY: github-actions
         run: python agents/savills_agent.py
 
       - name: Run Knight Frank agent
-        if: ${{ github.event.inputs.agent == '' || github.event.inputs.agent == 'knightfrank' }}
+        if: |
+          (github.event_name == 'schedule' && github.event.schedule == '0 6 * * 1-5') ||
+          (github.event_name == 'workflow_dispatch' && (github.event.inputs.agent == '' || github.event.inputs.agent == 'knightfrank'))
         env:
           PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          TRIGGERED_BY: github-actions
         run: python agents/knightfrank_agent.py
 
+      # ── Friday 18:00 BST — Weekly Market Roundup summary ─────────────────────
+      - name: Run weekly summary agent
+        if: |
+          (github.event_name == 'schedule' && github.event.schedule == '0 17 * * 5') ||
+          (github.event_name == 'workflow_dispatch' && (github.event.inputs.agent == '' || github.event.inputs.agent == 'summary'))
+        env:
+          TRIGGERED_BY: github-actions
+        run: python agents/summary_agent.py
+
+      # ── Commit all updated data files ─────────────────────────────────────────
       - name: Commit and push any changes
         run: |
-          git add data/publications.json
+          git add data/publications.json data/weekly_summaries.json data/agent_runs.json
           git diff --cached --quiet && echo "No changes to commit" || \
-            git commit -m "[auto] Daily refresh — $(date -u +%Y-%m-%d)" && \
+            git commit -m "[auto] Data refresh — $(date -u +%Y-%m-%d %H:%M UTC)" && \
             git push

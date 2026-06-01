@@ -1,0 +1,360 @@
+[
+  {
+    "weekOf": "2026-05-29",
+    "generatedAt": "2026-05-29T17:00:00Z",
+    "triggeredBy": "github-actions",
+    "countries": [
+      {
+        "country": "Japan",
+        "sectors": [
+          {
+            "sector": "Office",
+            "savillsView": {
+              "summary": "Tokyo Grade A office demand remains robust driven by domestic corporate expansion and continued flight-to-quality. Prime rents in Marunouchi-Otemachi held at JPY 38,000–42,000/tsubo/month with vacancy compressing toward 2.5%. Occupier sentiment is positive with several large pre-commitments secured for 2027 completions. Limited new supply until 2027 supports landlord pricing power.",
+              "primeYield": "3.50%",
+              "primeRent": "JPY 40,000/tsubo/mth",
+              "outlook": "stable-positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE reports Tokyo office vacancy declining to 3.1% in Q1 2026, with net absorption turning positive for the third consecutive quarter. Expects rents to edge up 2–3% over the next 12 months as supply pipeline remains constrained.",
+                "source": "CBRE Tokyo Office MarketView Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL highlights increasing demand from technology and financial services occupiers in central Tokyo, with Shinjuku and Shibuya submarkets seeing renewed leasing activity from domestic tech firms expanding headcount post-pandemic.",
+                "source": "JLL Japan Real Estate Intelligence Service Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank notes yield compression has paused at 3.5% for prime assets, with investors increasingly targeting value-add opportunities in inner suburban locations. Cross-border capital from Singapore and Korea remains active.",
+                "source": "Knight Frank Asia-Pacific Prime Office Rental Index Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Industrial & Logistics",
+            "savillsView": {
+              "summary": "Greater Tokyo Bay Area logistics demand continues to outpace supply with vacancy at a record low of 1.8%. 3PL operators and e-commerce occupiers are driving absorption of large-format facilities (10,000 sqm+). Prime rents in Atsugi-Sagamihara corridor reached JPY 4,800/sqm/year. New completions in 2026 are largely pre-leased, sustaining tight conditions through year-end.",
+              "primeYield": "3.80%",
+              "primeRent": "JPY 4,800/sqm/yr",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE forecasts the Greater Tokyo logistics market to remain undersupplied through 2027, with 85% of 2026 supply pre-leased at completion. Rents expected to grow 4–5% year-on-year.",
+                "source": "CBRE Japan Logistics MarketView Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL identifies cold-chain and pharmaceutical logistics as the fastest-growing sub-sectors, with occupiers paying a 15–20% rent premium for temperature-controlled facilities in Tokyo Outer Ring locations.",
+                "source": "JLL Japan Logistics Outlook 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Retail",
+            "savillsView": {
+              "summary": "Luxury retail on Ginza and Omotesando continues to benefit from record inbound tourism, with Chinese and Southeast Asian visitor spending driving footfall above pre-COVID levels. Prime ground-floor rents on Ginza Chuo-dori stabilised at JPY 300,000/tsubo/month. International luxury brands are actively seeking flagship opportunities with limited availability keeping rents firm.",
+              "primeYield": "3.20%",
+              "primeRent": "JPY 300,000/tsubo/mth",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank notes Ginza remains Asia's most expensive retail strip, with international luxury brands prioritising Tokyo over Hong Kong for APAC flagships given the city's tourism recovery and weak yen advantage for visitors.",
+                "source": "Knight Frank Global Retail Highlights 2026"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "country": "Korea",
+        "sectors": [
+          {
+            "sector": "Office",
+            "savillsView": {
+              "summary": "Seoul CBD prime office rents remained stable at KRW 130,000–145,000/sqm/year as strong demand from financial services and tech tenants is offset by new supply entering the Gangnam and Yeouido submarkets. Vacancy in CBD remains below 5% but Yeouido is experiencing softening as tenants upgrade to newer GBD stock. Investment activity is cautious with buyers and sellers apart on pricing amid higher financing costs.",
+              "primeYield": "4.20%",
+              "primeRent": "KRW 140,000/sqm/yr",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE flags rising incentives in Yeouido submarket as landlords compete for tenants relocating to newer GBD stock. Rent-free periods of 4–6 months being offered on new leases, effective rents diverging from headline figures.",
+                "source": "CBRE Korea Office MarketView Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL highlights global tech firms consolidating Seoul footprints into premium GBD towers, supporting rents above KRW 150,000/sqm/year in best-in-class GBD assets while legacy Yeouido stock faces headwinds.",
+                "source": "JLL Korea Real Estate Intelligence 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Industrial & Logistics",
+            "savillsView": {
+              "summary": "Greater Seoul logistics market is experiencing a supply surge with 1.2m sqm of new completions in 2026. Vacancy has risen to 8.5% in secondary locations, though prime assets in Bucheon and Hanam corridors remain well-leased. E-commerce rationalisation has softened demand from pure-play online retailers, partially offset by growing 3PL and cold-chain occupier demand.",
+              "primeYield": "4.50%",
+              "primeRent": "KRW 85,000/sqm/yr",
+              "outlook": "cautious"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE reports effective rents under pressure in oversupplied corridors, with landlords offering fit-out contributions of KRW 50,000–80,000/sqm to secure anchor tenants in new completions.",
+                "source": "CBRE Korea Logistics MarketView Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Data Centre",
+            "savillsView": {
+              "summary": "Seoul is emerging as a priority data centre market driven by hyperscaler demand from Microsoft, Google and domestic players Kakao and Naver. Power constraints in the Sangam and Gasan clusters are pushing new developments to Incheon and Pyeongtaek. Colocation pricing has increased 10–12% year-on-year reflecting tight availability. Savills is tracking 450MW of announced capacity additions through 2027.",
+              "primeYield": "4.80%",
+              "primeRent": "USD 120/kW/month",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "JLL forecasts Seoul data centre market to grow to over 800MW operational capacity by 2028, ranking it among the top 5 APAC markets. Power procurement lead times of 18–24 months remain the primary constraint on new supply.",
+                "source": "JLL Asia Pacific Data Centre Outlook 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank notes Korean institutional investors are increasingly allocating to data centre assets, with cap rates compressing 30–40bps over the past 12 months despite the broader market caution.",
+                "source": "Knight Frank Korea Data Centre Investment 2026"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "country": "Singapore",
+        "sectors": [
+          {
+            "sector": "Office",
+            "savillsView": {
+              "summary": "Singapore Grade A office market continues to tighten with core CBD vacancy declining to 4.2% — the lowest since 2018. Prime rents reached SGD 14.50–16.00/sqft/month in Marina Bay and Raffles Place, with Savills tracking 15 active requirements above 20,000 sqft from financial services and wealth management firms. The pipeline to 2027 remains thin, supporting further rent growth of 5–8% over the next 12 months.",
+              "primeYield": "3.60%",
+              "primeRent": "SGD 15.25/sqft/mth",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE records Marina Bay Financial Centre achieving SGD 16.50/sqft/month on recent renewals, setting a new benchmark for the market. Family offices and private equity firms are the most active demand drivers in H1 2026.",
+                "source": "CBRE Singapore Office MarketView Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL highlights decentralised offices in Harbourfront and one-north continuing to attract technology occupiers seeking quality space at SGD 8–10/sqft/month, creating a two-tier market dynamic.",
+                "source": "JLL Singapore Property Market Monitor Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank forecasts Singapore prime office rents to grow 6–8% in 2026, outperforming the broader Asia-Pacific region, driven by limited completions and sustained demand from global financial institutions expanding Asia headquarters.",
+                "source": "Knight Frank Singapore Real Estate Highlights 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Industrial & Logistics",
+            "savillsView": {
+              "summary": "Singapore logistics market is characterised by chronic undersupply with JTC vacancy below 3%. Business park and high-tech industrial rents are rising sharply — prime rents at Mapletree Business City and one-north reached SGD 4.80–5.20/sqft/month. Semiconductor supply chain occupiers and biomedical manufacturers continue to absorb available space. Land-scarce conditions make new logistics development largely dependent on government allocation.",
+              "primeYield": "5.20%",
+              "primeRent": "SGD 2.80/sqft/mth",
+              "outlook": "stable-positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE notes ramp-up logistics facilities commanding a 20–25% premium over conventional warehouses, driven by e-commerce fulfilment and last-mile operators willing to pay for efficiency gains.",
+                "source": "CBRE Singapore Industrial MarketView Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Data Centre",
+            "savillsView": {
+              "summary": "Singapore data centre market is constrained by the government's deliberate capacity management policy, with the development moratorium selectively lifted only for sustainability-compliant facilities. Available colocation capacity is at critically low levels, driving colocation prices to USD 200–220/kW/month for hyperscale deployments. Johor Bahru in Malaysia is emerging as an overflow market with strong cross-border connectivity to Singapore.",
+              "primeYield": "4.20%",
+              "primeRent": "USD 210/kW/month",
+              "outlook": "constrained"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "JLL identifies the Singapore-Johor corridor as Asia Pacific's most dynamic emerging data centre cluster, with over 2GW of planned capacity in Johor targeting Singapore overflow demand. Digital connectivity zone incentives are accelerating development timelines.",
+                "source": "JLL Asia Pacific Data Centre Outlook 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank highlights Singapore data centre assets trading at sub-4% cap rates, among the lowest globally, reflecting perceived scarcity premium and long WAULT from hyperscale tenants.",
+                "source": "Knight Frank Singapore Data Centre 2026"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "country": "Australia",
+        "sectors": [
+          {
+            "sector": "Office",
+            "savillsView": {
+              "summary": "Sydney CBD prime office market is bifurcating sharply — premium and A-grade rents held at AUD 1,500–1,800/sqm/year in the core with near-zero vacancy, while secondary and B-grade stock faces structural headwinds from hybrid working. Tenant demand is concentrated on ESG-compliant, amenity-rich buildings. Melbourne office market remains more challenged with effective CBD vacancy above 18%, though incentives appear to be stabilising at 35–40% gross face rent as the landlord community holds the line.",
+              "primeYield": "5.50%",
+              "primeRent": "AUD 1,650/sqm/yr",
+              "outlook": "bifurcated"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE data shows Sydney prime effective rents growing 4% year-on-year, outperforming all other Australian CBDs. Net face rents on premium floors approaching AUD 2,000/sqm/year in 1 Bligh and Salesforce Tower.",
+                "source": "CBRE Australia Office MarketView Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL flags Melbourne incentive packages averaging 42% of gross face rent, with some landlords offering 5-year rent-free on 10-year deals to secure anchor tenants in secondary buildings. Recovery timeline now pushed to 2028.",
+                "source": "JLL Australia Office Outlook 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank notes Brisbane emerging as an outperformer with sub-12% vacancy and rents growing 6% year-on-year, driven by infrastructure investment and interstate migration ahead of 2032 Olympics.",
+                "source": "Knight Frank Australia Real Estate Outlook 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Industrial & Logistics",
+            "savillsView": {
+              "summary": "Australian east coast logistics market delivered another strong quarter with prime super-prime vacancy at 1.2% in Sydney (South Sydney and Outer West) and 2.4% in Melbourne (Dandenong, Laverton). Prime net face rents in Sydney Outer West reached AUD 165–185/sqm/year, up 8% year-on-year. Land values continue to surge in land-constrained inner west Sydney. The development pipeline is elevated but much of 2026–2027 supply is pre-committed to large occupiers.",
+              "primeYield": "5.00%",
+              "primeRent": "AUD 175/sqm/yr",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE records Sydney super-prime logistics achieving AUD 190/sqm/year net face rent in isolated cases, with refrigerated and automation-ready facilities commanding significant premiums over conventional dry warehouses.",
+                "source": "CBRE Australia Industrial MarketView Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL highlights Melbourne logistics continuing to attract interstate investment capital with yields ranging 4.75–5.25%, offering a meaningful premium over Sydney (4.50–4.75%) for comparable product quality.",
+                "source": "JLL Australia Logistics Outlook 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Retail",
+            "savillsView": {
+              "summary": "Australian retail is experiencing a dichotomous market — neighbourhood and sub-regional centres anchored by non-discretionary tenants performing well with occupancy above 98%, while discretionary-heavy regional malls face softening specialty retailer confidence amid cost-of-living pressures. Prime CBD retail on Melbourne's Bourke Street Mall and Sydney's Pitt Street Mall has seen international fashion brands returning post-pandemic, with prime rents recovering toward AUD 12,000–15,000/sqm/year.",
+              "primeYield": "5.25%",
+              "primeRent": "AUD 13,500/sqm/yr",
+              "outlook": "mixed"
+            },
+            "competitorIntel": [
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank notes food and beverage operators driving neighbourhood centre rental growth, with quality food courts and restaurant precincts becoming the anchor offering for suburban centres replacing underperforming fashion tenants.",
+                "source": "Knight Frank Australian Retail Sector Report 2026"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "country": "Hong Kong",
+        "sectors": [
+          {
+            "sector": "Office",
+            "savillsView": {
+              "summary": "Hong Kong Grade A office market continues to navigate cyclical headwinds with overall vacancy stabilising at 13.5% following the departure wave of international tenants through 2022–2024. However, Central submarket is seeing selective demand recovery from mainland Chinese financial institutions, private wealth managers and family offices — a structural shift in the occupier mix. Prime Central rents have stabilised at HKD 80–95/sqft/month with further downside limited. Savills expects a slow, protracted recovery with rents recovering 3–5% by end-2026.",
+              "primeYield": "3.80%",
+              "primeRent": "HKD 88/sqft/mth",
+              "outlook": "cautious-recovery"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE data shows Central Grade A net effective rents 35% below 2019 peak levels, with limited prospect of rapid recovery given persistent hybrid working and occupier right-sizing. However, CBRE notes mainland financial firms now accounting for 38% of new leasing demand in Central, up from 15% in 2022.",
+                "source": "CBRE Hong Kong Office MarketView Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL flags Kowloon East as a continuing beneficiary of flight-to-value from cost-conscious occupiers, with rents at HKD 28–35/sqft/month attracting professional services firms downsizing from Central while maintaining Hong Kong presence.",
+                "source": "JLL Hong Kong Property Market Monitor Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank highlights the Kai Tak commercial development emerging as a potential demand catalyst, with new government and infrastructure tenants anchoring the precinct and creating a new submarket with HKD 45–55/sqft/month initial asking rents.",
+                "source": "Knight Frank Hong Kong Real Estate Highlights 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Industrial & Logistics",
+            "savillsView": {
+              "summary": "Hong Kong logistics market remains supply-constrained with flatted factory and logistics warehouse vacancy below 4%. Modern ramp-up logistics in Tsuen Wan and Kwai Chung commands HKD 10–12/sqft/month with limited available space. Cross-border e-commerce with mainland China is the dominant demand driver. The proposed Northern Metropolis logistics hub is critical for future supply but remains a long-term project with first completions not expected until 2030.",
+              "primeYield": "4.50%",
+              "primeRent": "HKD 11/sqft/mth",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE notes cross-border logistics operators maintaining HK facilities despite mainland China supply chain alternatives, citing Hong Kong's role as a re-export hub and established customs and legal framework advantages.",
+                "source": "CBRE Hong Kong Industrial MarketView Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Retail",
+            "savillsView": {
+              "summary": "Hong Kong retail continues to face structural adjustment with total visitor arrivals still 25% below 2018 peak despite mainland tourist recovery. Causeway Bay and Tsim Sha Tsui prime rents are 40–50% below pre-pandemic levels but showing early stabilisation signals. Local consumption is supporting neighbourhood retail while luxury discretionary remains under pressure. The market is expected to remain in consolidation through 2026 with selective positive momentum in gateway malls.",
+              "primeYield": "4.80%",
+              "primeRent": "HKD 300/sqft/mth",
+              "outlook": "stabilising"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "JLL reports Causeway Bay retail vacancy declining marginally to 9.2% from a 2024 peak of 14.8%, with F&B operators and beauty retailers absorbing former fashion vacancies at rents 40% below pre-COVID levels.",
+                "source": "JLL Hong Kong Property Market Monitor Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank highlights luxury jewellery brands maintaining Hong Kong presence despite lower turnover, viewing the market as a critical China-facing window and strategic brand positioning location.",
+                "source": "Knight Frank Hong Kong Retail Report 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Data Centre",
+            "savillsView": {
+              "summary": "Hong Kong data centre market occupies a strategic but challenged position — strong connectivity to mainland China via submarine cables and dedicated cross-border links remain a key competitive advantage. However, geopolitical uncertainty has caused some hyperscalers to re-evaluate Hong Kong as a sole APAC hub, preferring Singapore or Tokyo as primary deployments. Savills sees sustained demand from mainland Chinese enterprises using Hong Kong as their international data gateway, supporting colocation prices of USD 130–150/kW/month.",
+              "primeYield": "5.00%",
+              "primeRent": "USD 140/kW/month",
+              "outlook": "stable-cautious"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "JLL identifies Tseung Kwan O as Hong Kong's primary data centre cluster with over 200MW operational, noting that HKEX co-location demand and financial services latency requirements continue to underpin occupancy despite broader market uncertainty.",
+                "source": "JLL Asia Pacific Data Centre Outlook 2026"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
