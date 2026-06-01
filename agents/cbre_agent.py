@@ -30,6 +30,7 @@ from shared.utils import (
     git_commit_and_push,
     normalise_market,
     normalise_sector,
+    append_agent_result,
 )
 
 try:
@@ -146,6 +147,9 @@ def fetch_new_publications() -> list[dict]:
 
 
 def main():
+    import time
+    start = time.time()
+
     print(f"\n{'='*50}")
     print(f" CBRE Agent — {date.today().isoformat()}")
     print(f"{'='*50}")
@@ -158,18 +162,37 @@ def main():
 
     if not to_add:
         print(f"[{FIRM}] No new publications found.")
-        return
+    else:
+        print(f"[{FIRM}] Adding {len(to_add)} new publications:")
+        for p in to_add:
+            print(f"  + [{p['market']}] {p['title'][:70]}")
+        updated = existing + to_add
+        save_publications(updated)
 
-    print(f"[{FIRM}] Adding {len(to_add)} new publications:")
-    for p in to_add:
-        print(f"  + [{p['market']}] {p['title'][:70]}")
+    # Count new yield/rent datapoints
+    new_yield_pts = sum(1 for p in to_add if p.get("primeYield"))
+    new_rent_pts  = sum(1 for p in to_add if p.get("primeRent"))
+    markets = list({p["market"] for p in to_add}) if to_add else []
+    sectors = list({p["sector"] for p in to_add}) if to_add else []
 
-    updated = existing + to_add
-    save_publications(updated)
-
-    git_commit_and_push(
-        f"[auto] {FIRM}: +{len(to_add)} new publications — {date.today().isoformat()}"
+    append_agent_result(
+        run_id=f"{date.today().isoformat()}T06:00:00Z",
+        firm=FIRM,
+        status="success",
+        publications_found=len(new_pubs),
+        new_publications=len(to_add),
+        new_yield_datapoints=new_yield_pts,
+        new_rent_datapoints=new_rent_pts,
+        markets=markets,
+        sectors=sectors,
+        duration_seconds=time.time() - start,
+        notes=f"Searched {LOOKBACK_DAYS}-day window. {len(to_add)} new publications added.",
     )
+
+    if to_add:
+        git_commit_and_push(
+            f"[auto] {FIRM}: +{len(to_add)} new publications — {date.today().isoformat()}"
+        )
 
 
 if __name__ == "__main__":

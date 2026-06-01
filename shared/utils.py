@@ -158,13 +158,97 @@ def make_publication(
     }
 
 
+# ── Agent run logging ────────────────────────────────────────────────────
+
+RUN_LOG_FILE = REPO_ROOT / "data" / "agent_runs.json"
+
+
+def load_run_log() -> list[dict]:
+    if not RUN_LOG_FILE.exists():
+        return []
+    with open(RUN_LOG_FILE, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def append_agent_result(
+    run_id: str,
+    firm: str,
+    status: str,
+    publications_found: int,
+    new_publications: int,
+    new_yield_datapoints: int,
+    new_rent_datapoints: int,
+    markets: list[str],
+    sectors: list[str],
+    duration_seconds: float,
+    notes: str = "",
+) -> None:
+    """
+    Append or update an agent result for today's run in agent_runs.json.
+    Creates a new run entry if one doesn't exist for today.
+    """
+    import datetime
+    today = date.today().isoformat()
+    run_id_full = run_id or f"{today}T06:00:00Z"
+
+    log = load_run_log()
+
+    # Find today's run entry or create it
+    run_entry = next((r for r in log if r["date"] == today), None)
+    if run_entry is None:
+        run_entry = {
+            "runId": run_id_full,
+            "date": today,
+            "triggeredBy": "github-actions",
+            "agents": [],
+            "totals": {
+                "publicationsFound": 0,
+                "newPublications": 0,
+                "newYieldDatapoints": 0,
+                "newRentDatapoints": 0,
+            },
+        }
+        log.insert(0, run_entry)  # newest first
+
+    # Remove existing entry for this firm (in case of re-run)
+    run_entry["agents"] = [a for a in run_entry["agents"] if a["firm"] != firm]
+
+    agent_result = {
+        "firm": firm,
+        "status": status,
+        "publicationsFound": publications_found,
+        "newPublications": new_publications,
+        "newYieldDatapoints": new_yield_datapoints,
+        "newRentDatapoints": new_rent_datapoints,
+        "markets": sorted(set(markets)),
+        "sectors": sorted(set(sectors)),
+        "durationSeconds": round(duration_seconds, 1),
+        "notes": notes,
+    }
+    run_entry["agents"].append(agent_result)
+
+    # Recompute totals
+    run_entry["totals"] = {
+        "publicationsFound": sum(a["publicationsFound"] for a in run_entry["agents"]),
+        "newPublications": sum(a["newPublications"] for a in run_entry["agents"]),
+        "newYieldDatapoints": sum(a["newYieldDatapoints"] for a in run_entry["agents"]),
+        "newRentDatapoints": sum(a["newRentDatapoints"] for a in run_entry["agents"]),
+    }
+
+    RUN_LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with open(RUN_LOG_FILE, "w", encoding="utf-8") as f:
+        json.dump(log, f, indent=2, ensure_ascii=False)
+
+    print(f"[{firm}] Run logged: {new_publications} new pubs, {new_yield_datapoints} yield pts, {new_rent_datapoints} rent pts")
+
+
 # ── Git commit helper ──────────────────────────────────────────────────────
 
 def git_commit_and_push(message: str) -> None:
     """Stage data/publications.json, commit, and push."""
     subprocess.run(["git", "config", "user.email", "agents@re-apac-research.auto"], cwd=REPO_ROOT, check=True)
     subprocess.run(["git", "config", "user.name", "APAC Research Agent"], cwd=REPO_ROOT, check=True)
-    subprocess.run(["git", "add", "data/publications.json", "dashboard/index.html"], cwd=REPO_ROOT, check=False)
+    subprocess.run(["git", "add", "data/publications.json", "data/agent_runs.json", "docs/index.html"], cwd=REPO_ROOT, check=False)
     result = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=REPO_ROOT)
     if result.returncode == 0:
         print("No changes to commit.")
