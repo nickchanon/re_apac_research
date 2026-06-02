@@ -30,6 +30,7 @@ from shared.utils import (
     git_commit_and_push,
     normalise_market,
     normalise_sector,
+    append_agent_result,
 )
 
 try:
