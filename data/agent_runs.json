@@ -26,7 +26,7 @@
           "Investment"
         ],
         "durationSeconds": 18,
-        "notes": "Initial seed run \u2014 28 historical publications loaded from Apr\u2013May 2026 research."
+        "notes": "Initial seed run — 28 historical publications loaded from Apr–May 2026 research."
       },
       {
         "firm": "JLL",
@@ -51,7 +51,7 @@
           "Mixed/Cross-Sector"
         ],
         "durationSeconds": 21,
-        "notes": "Initial seed run \u2014 34 historical publications loaded from Apr\u2013May 2026 research."
+        "notes": "Initial seed run — 34 historical publications loaded from Apr–May 2026 research."
       },
       {
         "firm": "Savills",
@@ -76,7 +76,7 @@
           "Investment"
         ],
         "durationSeconds": 19,
-        "notes": "Initial seed run \u2014 28 historical publications loaded from Apr\u2013May 2026 research."
+        "notes": "Initial seed run — 28 historical publications loaded from Apr–May 2026 research."
       },
       {
         "firm": "Knight Frank",
@@ -102,7 +102,7 @@
           "Investment"
         ],
         "durationSeconds": 23,
-        "notes": "Initial seed run \u2014 34 historical publications loaded from Apr\u2013May 2026 research."
+        "notes": "Initial seed run — 34 historical publications loaded from Apr–May 2026 research."
       }
     ],
     "totals": {
@@ -126,8 +126,8 @@
         "newRentDatapoints": 0,
         "markets": [],
         "sectors": [],
-        "durationSeconds": 2.3,
-        "notes": "Checked last 35 days. No new publications since Apr\u2013May 2026 batch."
+        "durationSeconds": 2.4,
+        "notes": "Searched 35-day window. 0 new publications added."
       },
       {
         "firm": "JLL",
@@ -139,7 +139,7 @@
         "markets": [],
         "sectors": [],
         "durationSeconds": 2.2,
-        "notes": "Checked last 35 days. No new publications since Apr\u2013May 2026 batch."
+        "notes": "Searched 35-day window. 0 new publications added."
       },
       {
         "firm": "Savills",
@@ -150,8 +150,8 @@
         "newRentDatapoints": 0,
         "markets": [],
         "sectors": [],
-        "durationSeconds": 1.9,
-        "notes": "Checked last 35 days. No new publications since Apr\u2013May 2026 batch."
+        "durationSeconds": 4.0,
+        "notes": "Searched 35-day window. 0 new publications added."
       },
       {
         "firm": "Knight Frank",
@@ -162,8 +162,8 @@
         "newRentDatapoints": 0,
         "markets": [],
         "sectors": [],
-        "durationSeconds": 2.4,
-        "notes": "Checked last 35 days. No new publications since Apr\u2013May 2026 batch."
+        "durationSeconds": 2.2,
+        "notes": "Searched 35-day window. 0 new publications added."
       }
     ],
     "totals": {
