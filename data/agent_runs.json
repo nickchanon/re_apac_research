@@ -1,66 +1,5 @@
 [
   {
-    "runId": "2026-06-02T06:00:00Z",
-    "date": "2026-06-02",
-    "triggeredBy": "github-actions",
-    "agents": [
-      {
-        "firm": "CBRE",
-        "status": "success",
-        "publicationsFound": 0,
-        "newPublications": 0,
-        "newYieldDatapoints": 0,
-        "newRentDatapoints": 0,
-        "markets": [],
-        "sectors": [],
-        "durationSeconds": 2.3,
-        "notes": "Searched 35-day window. 0 new publications added."
-      },
-      {
-        "firm": "JLL",
-        "status": "success",
-        "publicationsFound": 0,
-        "newPublications": 0,
-        "newYieldDatapoints": 0,
-        "newRentDatapoints": 0,
-        "markets": [],
-        "sectors": [],
-        "durationSeconds": 2.2,
-        "notes": "Searched 35-day window. 0 new publications added."
-      },
-      {
-        "firm": "Savills",
-        "status": "success",
-        "publicationsFound": 0,
-        "newPublications": 0,
-        "newYieldDatapoints": 0,
-        "newRentDatapoints": 0,
-        "markets": [],
-        "sectors": [],
-        "durationSeconds": 1.9,
-        "notes": "Searched 35-day window. 0 new publications added."
-      },
-      {
-        "firm": "Knight Frank",
-        "status": "success",
-        "publicationsFound": 0,
-        "newPublications": 0,
-        "newYieldDatapoints": 0,
-        "newRentDatapoints": 0,
-        "markets": [],
-        "sectors": [],
-        "durationSeconds": 2.4,
-        "notes": "Searched 35-day window. 0 new publications added."
-      }
-    ],
-    "totals": {
-      "publicationsFound": 0,
-      "newPublications": 0,
-      "newYieldDatapoints": 0,
-      "newRentDatapoints": 0
-    }
-  },
-  {
     "runId": "2026-06-01T06:00:00Z",
     "date": "2026-06-01",
     "triggeredBy": "github-actions",
@@ -87,7 +26,7 @@
           "Investment"
         ],
         "durationSeconds": 18,
-        "notes": "Initial seed run — 28 historical publications loaded from Apr–May 2026 research."
+        "notes": "Initial seed run \u2014 28 historical publications loaded from Apr\u2013May 2026 research."
       },
       {
         "firm": "JLL",
@@ -112,7 +51,7 @@
           "Mixed/Cross-Sector"
         ],
         "durationSeconds": 21,
-        "notes": "Initial seed run — 34 historical publications loaded from Apr–May 2026 research."
+        "notes": "Initial seed run \u2014 34 historical publications loaded from Apr\u2013May 2026 research."
       },
       {
         "firm": "Savills",
@@ -137,7 +76,7 @@
           "Investment"
         ],
         "durationSeconds": 19,
-        "notes": "Initial seed run — 28 historical publications loaded from Apr–May 2026 research."
+        "notes": "Initial seed run \u2014 28 historical publications loaded from Apr\u2013May 2026 research."
       },
       {
         "firm": "Knight Frank",
@@ -163,7 +102,7 @@
           "Investment"
         ],
         "durationSeconds": 23,
-        "notes": "Initial seed run — 34 historical publications loaded from Apr–May 2026 research."
+        "notes": "Initial seed run \u2014 34 historical publications loaded from Apr\u2013May 2026 research."
       }
     ],
     "totals": {
@@ -171,6 +110,67 @@
       "newPublications": 0,
       "newYieldDatapoints": 31,
       "newRentDatapoints": 61
+    }
+  },
+  {
+    "runId": "2026-06-02T12:46:14Z",
+    "date": "2026-06-02",
+    "triggeredBy": "manual-test",
+    "agents": [
+      {
+        "firm": "CBRE",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 2.3,
+        "notes": "Checked last 35 days. No new publications since Apr\u2013May 2026 batch."
+      },
+      {
+        "firm": "JLL",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 2.2,
+        "notes": "Checked last 35 days. No new publications since Apr\u2013May 2026 batch."
+      },
+      {
+        "firm": "Savills",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 1.9,
+        "notes": "Checked last 35 days. No new publications since Apr\u2013May 2026 batch."
+      },
+      {
+        "firm": "Knight Frank",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 2.4,
+        "notes": "Checked last 35 days. No new publications since Apr\u2013May 2026 batch."
+      }
+    ],
+    "totals": {
+      "publicationsFound": 0,
+      "newPublications": 0,
+      "newYieldDatapoints": 0,
+      "newRentDatapoints": 0
     }
   }
 ]
