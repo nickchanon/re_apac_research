@@ -1,5 +1,66 @@
 [
   {
+    "runId": "2026-06-02T06:00:00Z",
+    "date": "2026-06-02",
+    "triggeredBy": "github-actions",
+    "agents": [
+      {
+        "firm": "CBRE",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 2.3,
+        "notes": "Searched 35-day window. 0 new publications added."
+      },
+      {
+        "firm": "JLL",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 2.2,
+        "notes": "Searched 35-day window. 0 new publications added."
+      },
+      {
+        "firm": "Savills",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 1.9,
+        "notes": "Searched 35-day window. 0 new publications added."
+      },
+      {
+        "firm": "Knight Frank",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 2.4,
+        "notes": "Searched 35-day window. 0 new publications added."
+      }
+    ],
+    "totals": {
+      "publicationsFound": 0,
+      "newPublications": 0,
+      "newYieldDatapoints": 0,
+      "newRentDatapoints": 0
+    }
+  },
+  {
     "runId": "2026-06-01T06:00:00Z",
     "date": "2026-06-01",
     "triggeredBy": "github-actions",
@@ -11,8 +72,20 @@
         "newPublications": 0,
         "newYieldDatapoints": 13,
         "newRentDatapoints": 22,
-        "markets": ["Tokyo", "Seoul", "Singapore", "Australia", "Hong Kong", "APAC"],
-        "sectors": ["Office", "Industrial & Logistics", "Retail", "Investment"],
+        "markets": [
+          "Tokyo",
+          "Seoul",
+          "Singapore",
+          "Australia",
+          "Hong Kong",
+          "APAC"
+        ],
+        "sectors": [
+          "Office",
+          "Industrial & Logistics",
+          "Retail",
+          "Investment"
+        ],
         "durationSeconds": 18,
         "notes": "Initial seed run — 28 historical publications loaded from Apr–May 2026 research."
       },
@@ -23,8 +96,21 @@
         "newPublications": 0,
         "newYieldDatapoints": 8,
         "newRentDatapoints": 16,
-        "markets": ["Tokyo", "Seoul", "Singapore", "Australia", "Hong Kong", "APAC"],
-        "sectors": ["Office", "Industrial & Logistics", "Retail", "Investment", "Mixed/Cross-Sector"],
+        "markets": [
+          "Tokyo",
+          "Seoul",
+          "Singapore",
+          "Australia",
+          "Hong Kong",
+          "APAC"
+        ],
+        "sectors": [
+          "Office",
+          "Industrial & Logistics",
+          "Retail",
+          "Investment",
+          "Mixed/Cross-Sector"
+        ],
         "durationSeconds": 21,
         "notes": "Initial seed run — 34 historical publications loaded from Apr–May 2026 research."
       },
@@ -35,8 +121,21 @@
         "newPublications": 0,
         "newYieldDatapoints": 4,
         "newRentDatapoints": 9,
-        "markets": ["Singapore", "Seoul", "Tokyo", "Australia", "Hong Kong", "APAC"],
-        "sectors": ["Office", "Industrial & Logistics", "Retail", "Residential", "Investment"],
+        "markets": [
+          "Singapore",
+          "Seoul",
+          "Tokyo",
+          "Australia",
+          "Hong Kong",
+          "APAC"
+        ],
+        "sectors": [
+          "Office",
+          "Industrial & Logistics",
+          "Retail",
+          "Residential",
+          "Investment"
+        ],
         "durationSeconds": 19,
         "notes": "Initial seed run — 28 historical publications loaded from Apr–May 2026 research."
       },
@@ -47,8 +146,22 @@
         "newPublications": 0,
         "newYieldDatapoints": 6,
         "newRentDatapoints": 14,
-        "markets": ["Singapore", "Hong Kong", "Australia", "Tokyo", "Seoul", "APAC"],
-        "sectors": ["Office", "Industrial & Logistics", "Retail", "Residential", "Data Centre", "Investment"],
+        "markets": [
+          "Singapore",
+          "Hong Kong",
+          "Australia",
+          "Tokyo",
+          "Seoul",
+          "APAC"
+        ],
+        "sectors": [
+          "Office",
+          "Industrial & Logistics",
+          "Retail",
+          "Residential",
+          "Data Centre",
+          "Investment"
+        ],
         "durationSeconds": 23,
         "notes": "Initial seed run — 34 historical publications loaded from Apr–May 2026 research."
       }
