@@ -149,10 +149,9 @@ def main():
     import time
     start = time.time()
 
-    print(f"
-{'='*50}")
-    print(f" CBRE Agent — {date.today().isoformat()}")
-    print(f"{'='*50}")
+    print("\n" + "="*50)
+    print(f" Savills Agent — {date.today().isoformat()}")
+    print("="*50)
 
     existing = load_publications()
     print(f"Existing publications in DB: {len(existing)}")
