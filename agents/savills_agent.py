@@ -189,10 +189,9 @@ def main():
         notes=f"Searched {LOOKBACK_DAYS}-day window. {len(to_add)} new publications added.",
     )
 
-    if to_add:
-        git_commit_and_push(
-            f"[auto] {FIRM}: +{len(to_add)} new publications — {date.today().isoformat()}"
-        )
+    git_commit_and_push(
+        f"[auto] {FIRM}: +{len(to_add)} new pubs, run logged — {date.today().isoformat()}"
+    )
 
 
 if __name__ == "__main__":
