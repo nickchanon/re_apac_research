@@ -233,5 +233,66 @@
       "newYieldDatapoints": 0,
       "newRentDatapoints": 0
     }
+  },
+  {
+    "runId": "2026-06-03T20:00:14Z",
+    "date": "2026-06-03",
+    "triggeredBy": "github-actions",
+    "agents": [
+      {
+        "firm": "CBRE",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 4.3,
+        "notes": "Checked last 35 days. No new publications found."
+      },
+      {
+        "firm": "JLL",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 2.9,
+        "notes": "Checked last 35 days. No new publications found."
+      },
+      {
+        "firm": "Savills",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 2.7,
+        "notes": "Checked last 35 days. No new publications found."
+      },
+      {
+        "firm": "Knight Frank",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 2.5,
+        "notes": "Checked last 35 days. No new publications found."
+      }
+    ],
+    "totals": {
+      "publicationsFound": 0,
+      "newPublications": 0,
+      "newYieldDatapoints": 0,
+      "newRentDatapoints": 0
+    }
   }
 ]
