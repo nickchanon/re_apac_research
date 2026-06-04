@@ -1,5 +1,30 @@
 [
   {
+    "runId": "2026-06-04T06:00:00Z",
+    "date": "2026-06-04",
+    "triggeredBy": "github-actions",
+    "agents": [
+      {
+        "firm": "CBRE",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 2.6,
+        "notes": "Searched 35-day window. 0 new publications added."
+      }
+    ],
+    "totals": {
+      "publicationsFound": 0,
+      "newPublications": 0,
+      "newYieldDatapoints": 0,
+      "newRentDatapoints": 0
+    }
+  },
+  {
     "runId": "2026-06-03T06:00:00Z",
     "date": "2026-06-03",
     "triggeredBy": "github-actions",
