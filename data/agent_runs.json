@@ -39,6 +39,18 @@
         "sectors": [],
         "durationSeconds": 2.4,
         "notes": "Searched 35-day window. 0 new publications added."
+      },
+      {
+        "firm": "Knight Frank",
+        "status": "success",
+        "publicationsFound": 0,
+        "newPublications": 0,
+        "newYieldDatapoints": 0,
+        "newRentDatapoints": 0,
+        "markets": [],
+        "sectors": [],
+        "durationSeconds": 2.2,
+        "notes": "Searched 35-day window. 0 new publications added."
       }
     ],
     "totals": {
