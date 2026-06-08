@@ -16,6 +16,46 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = REPO_ROOT / "data" / "publications.json"
 
+# ── Official domain allowlist (only publications from these domains are accepted) ──
+OFFICIAL_DOMAINS: dict[str, list[str]] = {
+    "CBRE": [
+        "cbre.com", "cbre.com.au", "cbre.com.hk", "cbre.com.sg",
+        "cbre.co.jp", "cbrekorea.com", "cbre.co.kr", "cbrevietnam.com",
+        "cbre.com.my", "cbre.co.id", "cbre.co.th",
+    ],
+    "JLL": [
+        "jll.com", "research.jllapsites.com", "jll.com.au", "jll.com.hk",
+        "jll.com.sg", "jll.co.jp", "jll.co.kr", "ap.jll.com", "co.jll",
+    ],
+    "Savills": [
+        "savills.com", "savills.com.au", "savills.com.hk", "savills.com.sg",
+        "savills.co.jp", "savills.co.kr", "savills.com.cn", "savills.co.uk",
+        "savillsim.com", "impacts.savills.com", "prospects.savills.com",
+        "savills.com.my", "savills.co.th", "savills.co.id",
+    ],
+    "Knight Frank": [
+        "knightfrank.com", "knightfrank.com.au", "knightfrank.com.sg",
+        "knightfrank.com.hk", "knightfrank.co.uk", "apac.knightfrank.com",
+        "international-residential.knightfrank.com.sg", "content.knightfrank.com",
+        "kfmap.asia", "knightfrank.co.jp", "knightfrank.co.kr",
+        "knightfrank.com.my", "knightfrank.co.th",
+    ],
+}
+
+
+def is_official_source(url: str | None, firm: str) -> bool:
+    """Return True only if url belongs to an official domain for the given firm."""
+    if not url:
+        return False
+    try:
+        from urllib.parse import urlparse
+        domain = urlparse(url).netloc.lower().replace("www.", "")
+    except Exception:
+        return False
+    allowed = OFFICIAL_DOMAINS.get(firm, [])
+    return any(domain == a or domain.endswith("." + a) for a in allowed)
+
+
 # ── Valid field values ─────────────────────────────────────────────────────
 VALID_MARKETS = {"Tokyo", "Seoul", "Singapore", "Australia", "Hong Kong", "APAC"}
 VALID_SECTORS = {
@@ -108,10 +148,15 @@ def _dedup_key(pub: dict) -> str:
 
 
 def deduplicate(existing: list[dict], new_pubs: list[dict]) -> list[dict]:
-    """Return only pubs from new_pubs not already in existing."""
+    """Return only pubs from new_pubs not already in existing AND from official sources."""
     existing_keys = {_dedup_key(p) for p in existing}
     added = []
     for p in new_pubs:
+        url = p.get("url") or p.get("source") or p.get("link", "")
+        firm = p.get("firm", "")
+        if not is_official_source(url, firm):
+            print(f"[{firm}] Skipped non-official source: {url}")
+            continue
         key = _dedup_key(p)
         if key not in existing_keys:
             existing_keys.add(key)

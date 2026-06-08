@@ -79,7 +79,9 @@ For EACH publication found, return a JSON array with objects containing EXACTLY 
   "primeYield": "e.g. 4.25% or null",
   "primeRent": "e.g. JPY 40,000/tsubo or null",
   "url": "direct URL to the report or null"
-}}
+}
+
+CRITICAL: Only include publications whose URL comes from an official company website (knightfrank.com, knightfrank.com.au, knightfrank.com.sg, knightfrank.com.hk, apac.knightfrank.com, kfmap.asia). Do NOT include sources from LinkedIn, Facebook, YouTube, Scribd, news sites, aggregators (realestateasia.com, itiger.com, etc.), or any third-party domain. If the only source for a publication is a third-party URL, omit that publication entirely.
 
 Today's date: {today}
 Return ONLY the JSON array, no other text.
