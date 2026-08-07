@@ -5793,5 +5793,608 @@
         ]
       }
     ]
+  },
+  {
+    "weekOf": "2026-08-07",
+    "generatedAt": "2026-08-07T17:50:24Z",
+    "triggeredBy": "github-actions",
+    "countries": [
+      {
+        "country": "Japan",
+        "sectors": [
+          {
+            "sector": "Office",
+            "savillsView": {
+              "summary": "In Japan's office market, strong occupier demand, limited supply, and positive yield spreads continued to support pricing in Q1 2026, with prime office rents in Tokyo's Central 5 Wards touching new highs. Japan's commercial real estate investment reached JPY2.043 trillion in Q1 2026, up 2% YoY and the highest first-quarter level on record. Cross-border capital flows concentrated heavily in Japan during the quarter.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "Tokyo's All-Grade office vacancy rate fell 0.1 pp QoQ to 1.5% in Q1 2026, with net absorption of 114,000 tsubo surpassing the new supply of 103,000 tsubo; Grade A and Grade A- rents both recorded their second-highest QoQ growth rates on record. In Osaka, the All-Grade vacancy rate declined to 2.0%, with Grade B rents surging 3.9% QoQ to JPY 16,150 — surpassing the previous peak set in Q1 2008. All-Grade rents rose in nine of the ten surveyed regional cities, with Sapporo, Saitama, Hiroshima, and Fukuoka continuing to set record highs.",
+                "source": "Japan Office MarketView Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL's city-level report on Tokyo's Grade A office market. Net absorption reached 69,000 tsubo in Q1 2026, up from 38,000 tsubo in Q4 2025, driven by employees returning to the office and business expansion in manufacturing, IT, and professional services. The vacancy rate held steady at 0.7% (down 1.8 pp YoY). The average monthly gross rent rose 5.2% QoQ and 13.2% YoY to JPY 40,247 per tsubo, reflecting near-zero vacancy and strong demand.",
+                "source": "Tokyo Office Market Dynamics Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank identifies Tokyo as the region's tightest prime office market in 2026, with Grade-A vacancy in the five central wards tightening to near-zero levels. Tokyo office rents rose 22% YoY in Q1 2026, the fastest rental growth across the Asia-Pacific region. New supply for 2026 and beyond remains extremely scant and pre-leasing is well advanced on available buildings, while the cap rate hovers around 3.5% for core office transactions.",
+                "source": "Tokyo Office Market Outlook 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Industrial & Logistics",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "The Greater Tokyo logistics vacancy rate decreased 0.6 pp QoQ to 9.2% in Q1 2026, with net absorption significantly surpassing the five-year quarterly average on strong demand for existing properties; effective rents rose 0.9% QoQ to JPY 4,530. Greater Osaka saw the vacancy rate fall sharply by 1.5 pp to 2.2%, with three new properties completing at full occupancy and effective rents rising 1.2% QoQ to JPY 4,350. Greater Nagoya vacancy increased to 16.8%, though effective rents still rose marginally to JPY 3,740.",
+                "source": "Japan Logistics MarketView Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL's city-level report on Greater Tokyo's logistics market. 3PL companies increasingly relocated and expanded logistics facilities throughout Greater Tokyo. As rents rose in core areas, demand for more affordable properties in fringe areas recovered. Overall vacancy declined 0.6 pp QoQ to 8.2%. The average gross rent was JPY 4,823 per tsubo per month (+0.9% QoQ). Capital values rose 0.1% QoQ and 1.2% YoY.",
+                "source": "Tokyo Industrial/Logistics Market Dynamics Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank highlights Tokyo's logistics sector as resilient in 2026, with strong demand and rent increases expected to offset rising interest rates as the market gradually sees more CPI-linked contracts. Renewal rates remain high amid tight availability of super-prime logistics space in Greater Tokyo, while solid domestic consumption and flight-to-quality continue to drive expansionary demand. Supply chain diversification trends are broadening logistics demand beyond the Greater Tokyo area to regional markets.",
+                "source": "Japan Industrial & Logistics Market Outlook 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Retail",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "Average rents set new all-time highs in five of the ten surveyed high street areas in Q1 2026 — Ginza, Omotesando/Harajuku, Shibuya, Shinsaibashi, and Kyoto — driven by fashion sector demand and new brand store openings. Vacancy in both Ginza and Shibuya remained at 0.0%, reflecting extremely tight supply conditions. Multiple retailers competing for single available units has become increasingly common, and CBRE expects average rents to continue on an upward trend.",
+                "source": "Japan Retail MarketView Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "Tokyo's prime retail markets of Ginza and Omotesando saw rents reach JPY 104,154 per tsubo per month in Q4 2025, up 1.9% quarter-on-quarter and 5.5% year-on-year, driven by international luxury brand expansion and strong inbound tourism. Capital values increased 1.7% quarter-on-quarter and 4.2% year-on-year as cap rates remained stable. Luxury goods sales resumed double-digit growth in November–December, with record foreign visitor arrivals supporting inbound consumption.",
+                "source": "Tokyo Retail Market Dynamics Q4 2025 (APPD Report)"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank identifies Tokyo retail rents as rising at the fastest pace across the Asia-Pacific region in 2026, up approximately 8% YoY, driven by record inbound tourism and strong domestic consumption. Japan's high street retail market is experiencing near-zero vacancy in major corridors including Ginza, Omotesando and Shinjuku. Rising inbound tourism and the depreciated yen continue to support luxury retail leasing demand at prime high-street locations.",
+                "source": "Tokyo Retail Market Outlook 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Data Centre",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank identifies Tokyo as a primary APAC data centre market where AI adoption is driving unprecedented demand. With over 80% of 2026 capacity pre-let, supply remains constrained by construction costs and power availability, driving activity including the largest ever data centre financing transaction in Japan. Investors and operators are forming new joint-venture platforms to scale exposure into digital infrastructure.",
+                "source": "Tokyo Data Centre Market – Investment Outlook 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Residential",
+            "savillsView": {
+              "summary": "Savills Investment Management highlighted Japan's multifamily residential sector as demonstrating resilient fundamentals entering 2026, underpinned by demographic trends, urban concentration, and strong preference for rental housing. The report noted that even amid Bank of Japan rate increases, risk-free rates would likely need to exceed 3.0% before cap rates broadly shift. Steady occupancy and predictable income were expected to continue supporting multifamily investor returns. Prime yield: N/A. Prime rent: N/A.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "This research paper examines the factors driving investment concentration in the Greater Tokyo area, finding that Tokyo accounts for approximately 70% of total residential investment in Japan. The report identifies three key drivers: core investor criteria favouring Tokyo, high railway network density expanding suitable residential development areas, and rising university enrolment and urbanisation of employment. It notes a relative shortage of rental housing for low-income segments despite robust overall demand.",
+                "source": "Multiscale Analysis of Japan's Rental Apartments Market"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank's Prime Global Cities Index ranks Tokyo first among 46 global cities in prime residential price performance, with a 55.9% increase over the 12 months to Q3 2025. The outperformance is attributed to limited secondary market supply, strong foreign capital inflows and a persistent shortage of high-quality new developments. New condominium supply in 2026 is projected at approximately 23,000 units, the lowest level in more than 50 years, maintaining structural upward pressure.",
+                "source": "Tokyo Prime Residential Performance – Leading Global Markets"
+              }
+            ]
+          },
+          {
+            "sector": "Capital Markets",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE's Japan-specific results from the 2026 Asia Pacific Investor Intentions Survey indicate that the Japan investment market will remain active, with many investors expecting real estate prices to rise. A pronounced shift from core to value-add strategies was recorded, as rising interest rates are offset by strong rental growth prospects in the office sector. Investors are expected to focus on achieving returns through rental growth that exceeds the impact of rising interest rates and inflation-driven cost increases.",
+                "source": "2026 Asia Pacific Investor Intentions Survey: Japan Results"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank highlights Japan as a core destination for global capital in 2026, driven by strong liquidity, low debt costs and strong inbound investor appetite following JPY 6.6 trillion in transaction volume in 2025. Q1 2026 volumes are 43% above the 10-year quarterly average. Japan accounts for over 80% of APAC living-sector volumes in Q1 2026, with new investors entering the multifamily market, while funding gaps in data centres are creating attractive private credit entry points.",
+                "source": "Japan Capital Markets Outlook 2026"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "country": "Korea",
+        "sectors": [
+          {
+            "sector": "Office",
+            "savillsView": {
+              "summary": "Seoul's prime office market recorded negative net absorption of -26,900 sq m in Q1 2026, pushing average vacancy up 0.4 percentage points QoQ to 4.0%. The CBD bore the brunt, with net absorption of -22,100 sq m and vacancy rising to 5.5%, while the Gangnam Business District was the only major submarket to post positive net absorption with vacancy stable at 1.7%. Redevelopment-driven relocations continued to shape YBD activity. Prime yield: N/A. Prime rent: N/A.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "JLL's city-level report on Seoul's office market. Overall quarterly net take-up reached 7,502 pyeong in Q1 2026, driven by CBD move-ins including NH NongHyup Tower occupancy. The Seoul vacancy rate fell 39 bps QoQ to 4.3%, with the CBD vacancy down 159 bps to 6.9%. Net effective rents rose 1.1% QoQ and 4.5% YoY to KRW 149,516 per pyeong. Total office investment volume reached KRW 3.4 trillion, highlighted by the ~KRW 1.3 trillion acquisition of Seoul Square.",
+                "source": "Seoul Office Market Dynamics Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank identifies Seoul's Grade-A office market as supply-constrained, with the average vacancy rate across the three major business districts (CBD, Gangnam, Yeouido) at approximately 2.8% in Q1 2026. Tenants are adopting a wait-and-see stance ahead of large-scale new supply scheduled in the CBD in Q2 2026, including G1 Seoul and Re:nesquare. Rental growth is expected to persist as elevated development costs and rising asset values continue to widen the gap between prime and general Grade-A assets.",
+                "source": "Seoul Office Market Outlook 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Industrial & Logistics",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "JLL's city-level report on Seoul's SCA Grade A logistics market. Net absorption reached 33,652 pyeong in Q1 2026, with positive absorption in Central, North, South, and West submarkets while South-east was negative. The overall SCA vacancy rate was stable at approximately 15.4%. Net effective rents increased 0.7% QoQ and 3.2% YoY to KRW 32,600 per pyeong. Total logistics investment volume reached KRW 747.2 billion, with the quarter's most notable deal being the KRW 432 billion sale of Arenas Yeongjong.",
+                "source": "Seoul Industrial/Logistics Market Dynamics Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank reports that the Greater Seoul logistics market is expected to see Grade-A supply fall to its lowest level in a decade in 2026, driving rapid vacancy stabilisation toward the low-10% range from approximately 17% in 2025. 3PL providers and e-commerce operators account for approximately 77% of total demand. Ambient-temperature logistics vacancy has already fallen below 10% and prime assets are experiencing rental growth and asset value differentiation.",
+                "source": "Seoul Industrial & Logistics Market Outlook 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Retail",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "Seoul's prime retail markets saw modest rent growth of 0.4% quarter-on-quarter for both shopping malls and high streets in Q4 2025, with Myeongdong recording the strongest quarterly growth at 1.0% driven by surging tourist volumes. Shopping mall vacancy improved marginally by 20 bps quarter-on-quarter to 1.1%, while high street vacancy improved 68 bps to 14.5%. Both shopping mall and high street yields remained flat at 6.6% and 6.3% respectively as significant yield adjustments remain unlikely in the fragmented transaction market.",
+                "source": "Seoul Retail Market Dynamics Q4 2025 (APPD Report)"
+              }
+            ]
+          },
+          {
+            "sector": "Residential",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "JLL Research analysis of Korea's emerging co-living sector. Shifting demographics—including high home prices, risk of losing Jeonse deposits, high price-to-income ratios, growing single-person households, and long-term overseas visitors—have drawn foreign capital to Korea's co-living market. ICG's partnership with Homes Company established a co-living fund worth approximately KRW 300 billion. New LTV restrictions (0% in regulated areas) introduced in late 2025 are reshaping financing structures for rental housing operators.",
+                "source": "Foreign Investment Shapes Korea's Co-Living Market"
+              }
+            ]
+          },
+          {
+            "sector": "Capital Markets",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "Korean investor purchase intentions hit an all-time survey high in CBRE's 2026 Korea Investor Intentions Survey, reflecting strong sentiment across the domestic commercial real estate market. While 2026 investment volumes are forecast to moderate 5–10% from 2025's record KRW 34 trillion due to base effects, structural demand across office, data centres and logistics underpins resilient investor confidence. The survey highlights data centres strengthening as policy-driven strategic assets and prime office assets remaining the dominant transaction type.",
+                "source": "2026 Korea Investor Intentions Survey"
+              },
+              {
+                "firm": "JLL",
+                "summary": "South Korea's commercial real estate investment market achieved a record-breaking KRW 6.0 trillion in Q4 2025 office transactions alone, with the full-year 2025 figure reaching USD 28.1 billion (+29% year-on-year). Domestic asset management companies with dry powder from NPS, Korea Post and Yellow Umbrella Mutual Aid are expected to actively drive the investment market in 2026, alongside continued foreign interest in logistics assets. The CBD supply pipeline is expected to create an additional risk premium for investors and may redirect appetite towards Yeouido and Gangnam submarkets.",
+                "source": "Korea Investment Market Review 2025 / Outlook 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank highlights South Korea as a two-way bridge for private credit capital, with domestic institutions allocating to global funds while foreign investors target approximately US$325 million in local real estate credit opportunities. Korea's commercial real estate market enters a mild correction phase in 2026 after a record 2025, but prime office assets remain the core of transaction activity. Data centres, hotels and alternative living sectors are broadening the investable universe for domestic and international capital.",
+                "source": "Seoul Capital Markets & Private Credit Outlook 2026"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "country": "Singapore",
+        "sectors": [
+          {
+            "sector": "Office",
+            "savillsView": {
+              "summary": "Savills revised its Singapore office rental forecast for 2026 upward from 2% to 3%–5% YoY growth, supported by tight supply and sustained occupancy. CBD Grade A rents rose 0.6% QoQ to a post-2019 high of S$10.02 per sq ft (eighth consecutive quarter of gains), while Grade AAA rents reached S$13.28 per sq ft. CBD Grade A vacancy dipped to 6.6%, the lowest since Q3 2024, with Grade AAA vacancy falling to 5.1% for the fifth consecutive quarter. Prime yield: N/A. Prime rent: N/A.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "JLL's city-level report on Singapore's CBD office market. Positive leasing momentum from 2025 carried into Q1 2026, with vacancy tightening more significantly for prime properties. There were no major office completions during the quarter. Office rent growth continued, though quarter-on-quarter gains fell back to the sub-1% region. The Marina Bay submarket led the drop in vacancy rates, and some spaces were re-let before the current occupants vacated, reflecting strong demand for premium space.",
+                "source": "Singapore Office Market Dynamics Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Singapore office rents in the Central Region declined marginally by 0.2% QoQ in Q1 2026 per URA data, though prime Grade A CBD rents continued their recovery with islandwide office vacancy falling to 10.8% — its fourth consecutive quarter of improvement. Total available shadow space decreased by 2.3% to 422,000 sq ft NLA. The market continues to exhibit a flight-to-quality dynamic with premium Grade A buildings maintaining pricing power.",
+                "source": "Singapore Office Market Update Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Industrial & Logistics",
+            "savillsView": {
+              "summary": "Strata industrial sales in Singapore declined 17.5% QoQ to 335 deals in Q1 2026, the lowest quarterly total since 2020, amid a more cautious business environment. Buyer preferences shifted sharply toward longer land tenures, with freehold industrial assets rising 2.9% QoQ to S$876 per sq ft and 60-year leasehold assets up 1.4% QoQ to S$569 per sq ft, while 30-year leasehold assets dipped 0.6% QoQ to S$353 per sq ft. Prime warehouse and logistics rents increased 0.4% QoQ to S$1.83 per sq ft per month. Prime yield: N/A. Prime rent: N/A.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "cautious"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "JLL's Q1 2026 report on Singapore's industrial and logistics sector. Demand held firm, with higher-specification logistics and warehouse premises remaining sought after. Islandwide average rents and capital values rose QoQ for the first time after six consecutive quarters of stability—ending a prolonged period of flat metrics. Yields were kept unchanged. Notable Q1 2026 deals included UI Boustead REIT acquiring three logistics assets for SGD 138.8 million and CapitaLand Ascendas REIT purchasing a facility for SGD 504.2 million. Capital value growth could outpace rental growth and tighten yields by year-end.",
+                "source": "Singapore Industrial/Logistics Market Dynamics Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Singapore's industrial sector saw property prices grow at a slower pace in Q1 2026, led by multiple-user factories which posted a 1.7% quarterly increase. Demand for higher-specification logistics and warehouse premises remained healthy, underpinned by logistics service providers and e-commerce firms. The sector outlook remains supported by continual investor demand for quality logistics assets and Singapore's attractiveness as a safe investment haven.",
+                "source": "Singapore Industrial and Logistics Market Update Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Retail",
+            "savillsView": {
+              "summary": "Singapore's retail vacancy rate held steady at 6.3% in Q1 2026, despite softer leasing demand and rising tenant churn, as the constrained supply pipeline (427,000 sq ft projected for 2026) contained vacancy. Prime Orchard Area mall rents edged up 0.1% QoQ to S$23.60 per sq ft, while suburban rents rose 0.2% QoQ to S$14.90 per sq ft. The market is bifurcating, with well-located prime malls maintaining occupancy while secondary locations face growing leasing challenges. Prime yield: N/A. Prime rent: N/A.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "Singapore's retail market saw occupier demand soften in Q4 2025 as the challenging operating environment and shifting consumer behaviours led retailers to seek more affordable options, though the Formula One race and year-end festivities provided a temporary boost. Islandwide vacancy rose quarter-on-quarter but remained contained as landlords prioritised occupancy, while prime floor space rents held stable on continued demand from quality-seeking occupiers. The suburban submarket recorded the highest vacancy increase of 0.1 percentage points driven by closures of underperforming stores at non-prime locations.",
+                "source": "Singapore Retail Market Dynamics Q4 2025 (APPD Report)"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Islandwide retail occupancy held steady in Q1 2026 despite several high-profile store closures, with vacancies quickly backfilled by new and existing brands. The retail sector continues to benefit from strong household spending, tourism recovery, and the flight of shoppers back to prime malls and street-level retail. Supply constraints continue to underpin rental stability in well-located assets.",
+                "source": "Singapore Retail Market Update Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Residential",
+            "savillsView": {
+              "summary": "Singapore developers launched approximately 1,844 new private units in Q1 2026, down ~30% QoQ and 41.3% YoY, while sales totalled ~2,025 units as demand outpaced new supply for a second consecutive quarter. Strong take-up was seen at River Modern (410 of 455 sold), Pinery Residences (537 of 588), and Newport Residences (184 of 246). Private residential prices rose 0.3% QoQ, moderating from 0.6% in Q4 2025. Prime yield: N/A. Prime rent: N/A.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "JLL",
+                "summary": "Singapore's prime non-landed residential market saw sales volume contract in Q4 2025, with October front-loaded by the launch of the 666-unit Skye at Holland. Prime resale non-landed home capital values rose on improved macro conditions and buyer preference for Prime assets as capital preservation vehicles. Luxury Prime rents fell amid weaker leasing demand while Typical Prime rents grew as cost-conscious tenants sought more affordable prime-district options.",
+                "source": "Singapore Residential Market Dynamics Q4 2025 (APPD Report)"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Private home prices rose at a faster pace in Q1 2026, though overall sales activity softened. Rental prices rebounded marginally from a 0.5% QoQ drop in Q4 2025 to a 0.3% increase in Q1 2026. Executive Condominiums were the standout performer, with transaction volume tripling to approximately 1,500 units, while District 10 median prices surged over 40% driven by large-format freehold resale demand.",
+                "source": "Singapore Residential Market Update Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Capital Markets",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE notes that Singapore's real estate investment appetite has improved amid lower interest rates, with Singapore ranking among the top three APAC investment destinations and investors deploying core-plus strategies given significant debt cost reductions that have taken the 3M SORA to approximately 1.2% in late 2025. A healthy pipeline of investment-grade assets alongside sustained rental growth across key sectors should support growth in transaction volumes in 2026. The report flags that Singapore's Core CBD Grade A vacancy compressed to record lows in late 2025, reinforcing landlord pricing power.",
+                "source": "2026 Singapore Real Estate Market Outlook – Economy and Investment Overview"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank Singapore's quarterly bulletin reports on real estate investment in Singapore with insights into the latest transaction trends. The Q1 2026 edition covers a period when Singapore recorded its highest quarterly investment volume on record according to JLL data, and where cross-border capital from Southeast Asian and global investors is actively deploying into prime commercial and residential assets.",
+                "source": "Singapore Investment Market Update – Q1 2026"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "country": "Australia",
+        "sectors": [
+          {
+            "sector": "Office",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "Brisbane CBD prime gross face rents grew 3.7% QoQ and 9.2% YoY in Q1 2026, among the strongest performances in Australia, with incentives declining 50 bps to average 38.9%. Prime CBD yields tightened slightly by 2 bps to 7.02%, reflecting late 2025 transaction activity. Market sentiment is noticeably improved year-on-year, with more tenants engaging with the market, though rising bond rates and the cash rate are creating some near-term investment uncertainty.",
+                "source": "Brisbane CBD Office Figures Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL's Q1 2026 city-level report on Sydney's office market. The Sydney office vacancy rate remained flat over the quarter. One completion was recorded across all Sydney markets totalling 4,500 sqm. Office transactions were concentrated in the metro markets, with strong CBD leasing activity fuelled by occupier expansions and a continued flight-to-quality trend. The market is underpinned by very limited new construction and low pipeline supply.",
+                "source": "Sydney Office Market Dynamics Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Net effective rents in Sydney CBD rose 10.2% and Melbourne CBD rose 6.8% over the 12 months to end-March 2026 — the fastest post-pandemic growth rates. Brisbane CBD led with 11.7% annual net effective rental growth. Core precincts outperformed significantly: Sydney Core surged 14.3% and Melbourne Eastern Core jumped 16.1% YoY, creating a 54% and 93% premium respectively over non-core CBD locations.",
+                "source": "Australian Office Indicators Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Industrial & Logistics",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "Gross take-up in Australia's industrial and logistics market moderated to approximately 680,000 sqm in Q1 2026, with approximately 700,000 sqm delivered as the development pipeline remains elevated. National super prime midpoint yields expanded marginally to 5.7%, reflecting higher interest rates and elevated bond yields, while effective rents returned to growth as face rental growth began to offset elevated incentives. Close to 40% of the 2026-2027 supply pipeline is pre-committed, with investment sales for income-producing assets totalling close to A$1 billion.",
+                "source": "Australia Industrial and Logistics Figures Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL's comprehensive industrial vacancy and supply update for Australia. Vacancy was broadly stable in Sydney, Melbourne, and Brisbane in Q1 2026. Sydney recorded 5.8% vacancy across 23.5 million sqm, Melbourne 5.2% across 30.6 million sqm (Australia's largest market), Brisbane 5.3% across 13.8 million sqm, and Perth the lowest nationally at 2.0%. Sub-lease vacancy decreased in Sydney (to 1.1%) and Melbourne (to 1.0%). The 45,000+ sqm cohort was the tightest nationally at 2.9% vacancy.",
+                "source": "Industrial Real Estate Market Analysis Q1 2026: Latest Industrial Vacancy Rates Across Australia"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "East coast industrial vacancy edged up marginally to 3.9% in Q1 2026, with Sydney recording the tightest rate at 2.9%. New supply is contracting sharply — 2026 completions are forecast to fall a further 20% following a 19% decline in 2025, totalling 1.66 million sq m. Brisbane leads on annual prime effective rent growth at 9.2%, and the thinning development pipeline is expected to drive stronger absorption and rental gains across east coast markets.",
+                "source": "Australian Industrial Review Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Retail",
+            "savillsView": {
+              "summary": "Australian retail investment volumes reached approximately A$4 billion in Q1 2026, the second consecutive quarter above that threshold, bringing rolling annual turnover to A$13.2 billion — up from A$9.9 billion a year earlier. Institutional capital accounted for 54% of acquisitions, while private and syndicated investors rose to 44%. Regional centres dominated at A$1.8 billion (nearly four times YoY), and neighbourhood centres rose 54% YoY, though large format retail was more selective. Prime yield: N/A. Prime rent: N/A.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "cautious-recovery"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "Net face rents grew across all retail sectors in Australia in Q1 2026, with CBD secondary and super prime assets recording the highest growth of 2.3% and 2.2% QoQ respectively. Shopping centre and large format yields continued to compress, with large format centres compressing 4 bps QoQ, while there were 32 retail transactions exceeding A$5 million totalling c.A$1.67 billion. Consumer sentiment declined significantly, with the Westpac-Melbourne Institute Index falling 12.5% to 80.1 in April amid global uncertainty.",
+                "source": "Australia Retail Figures Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL's Q1 2026 report on Melbourne's retail market. Non-discretionary spending increased 5% annually, double the discretionary spending growth of 2.7%, reflecting the ongoing polarisation in consumer spending. Six retail projects were completed in Q1 2026, up from the previous year. Eleven retail sales transactions occurred in Melbourne during the quarter. The market showed resilience in prime locations while secondary retail faced continued headwinds.",
+                "source": "Melbourne Retail Market Dynamics Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Australia's retail property sector delivered the strongest total return of all commercial property sectors in 2025 at 9.2%, carrying momentum into 2026 with around A$3.6 billion of retail transactions in Q1. Household spending growth and tightening supply are driving outperformance, though new geopolitical pressures from the Middle East conflict introduce uncertainty. Prime centres continue to outperform, supported by stronger sales, higher foot traffic and resilient tenant demand.",
+                "source": "Australian Retail Review — April 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Residential",
+            "savillsView": {
+              "summary": "The first edition of Savills Australia's new monthly residential research update covering Australia's housing markets. The May 2026 edition focuses on the drivers behind Perth's continued price growth, Sydney's bifurcated market conditions, and key themes ahead of the Federal Budget. It serves as a regular pulse check bringing together data and on-the-ground market insight across Australia's increasingly uneven residential markets. Prime yield: N/A. Prime rent: N/A.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "CBRE's 2026 Pacific Market Outlook highlights Australia's living sector facing a structural supply shortfall, with apartment completions forecast at approximately 60,000 units annually—well below the long-run demand of 75–85k. Capital city vacancy is expected to decline from 1.8% in 2025 to 1.1% by 2030, with rents projected to grow +24% and capital values +28% over 2025–2030. Student accommodation and senior living remain under-penetrated, presenting significant investment opportunities amid demographic shifts and affordability pressures.",
+                "source": "CBRE Australia Pacific Market Outlook 2026 – Residential Sector"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL's Q1 2026 city-level report on Melbourne's residential market. Apartment completions in Melbourne's inner precinct were just over 2,000 in 2025—a 10-year low. Median apartment sale prices in Melbourne remained largely stagnant at AUD 615,000 since early 2023. Apartment rents saw some modest growth. Buyer activity was increasing, supported by the constrained supply pipeline, with developers expected to deliver fewer new projects in the near term.",
+                "source": "Melbourne Residential Market Dynamics Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Capital Markets",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank Australia's monthly capital markets monitor breaks down the key indicators shaping the Australian capital markets environment. The report tracks investment activity across all major asset classes, noting that total Australian CRE investment volumes reached A$53.6 billion in 2025, the third strongest on record. Office transactions are rising, driven by end-user demand and growing investor interest, while the retail sector was a standout performer in 2025 with A$14.6 billion transacted.",
+                "source": "Australian Capital View – February 2026"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "country": "Hong Kong",
+        "sectors": [
+          {
+            "sector": "Office",
+            "savillsView": {
+              "summary": "Savills forecasts prime Central office rents in Hong Kong to rise 5–7% in 2026, supported by tightening vacancy in the core Central submarket. Central Grade A rents rose approximately 3.5% in Q1 2026, with Central vacancy falling to around 9.9% by February — the lowest since 2023. Non-residential investment in Hong Kong was boosted by office and hotel deals, and investors explored hotel-to-student-accommodation repositioning opportunities. Prime yield: N/A. Prime rent: N/A.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "Hong Kong Grade A office rents increased 1.6% QoQ in Q1 2026 — the strongest growth since Q3 2018 — driven primarily by Central (+5.9% QoQ) and Greater Tsim Sha Tsui (+0.9% QoQ), with Grade A1 buildings in Central recording their strongest gains since Q3 2010 at +12.1% QoQ. No new supply was delivered this quarter, and with positive net absorption of 375,400 sq. ft. (a fourth consecutive positive quarter), overall vacancy fell 0.4 pp to 16.8%, the biggest single-quarter decline since Q2 2015. Over the past four quarters, cumulative net absorption has totalled 2.7 million sq. ft.",
+                "source": "Hong Kong Figures – Office Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL's Q1 2026 analysis of Hong Kong's office market. Total net absorption reached 614,300 sqft but fell 59.7% QoQ from the elevated Q4 2025 base. The overall office vacancy rate stood at 13.5% at end-March; Central vacancy dropped 1.4 ppts QoQ to 9.6%—single-digit for the first time since 2023, driven by financial sector demand. Overall office rent rose 1.5% QoQ, with Central leading at +3.8% QoQ. Grade A capital values dipped 0.4% QoQ. Rents are projected to decline moderately by 0–5% in full-year 2026.",
+                "source": "Hong Kong Office Market Dynamics Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "This dedicated report examines the key demand drivers, occupier trends and market headwinds for the Hong Kong Island Grade-A office market heading into 2026. The report notes that premium Central Grade-A office buildings are expected to record positive rental growth of up to 8%, reflecting durable demand from financial services, family offices and Middle East capital diversifying into APAC hubs. A sharp reduction in new major supply from 2026 onward will provide the market with time to absorb leftover stock from 2024 and 2025.",
+                "source": "2026 Outlook for Hong Kong Island Grade-A Office Market: From Volatility to Opportunity"
+              }
+            ]
+          },
+          {
+            "sector": "Industrial & Logistics",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "Industrial leasing in Hong Kong remained sluggish in Q1 2026, with total leasing volume of 682,800 sq. ft. representing a 35% QoQ decline, though still up 17% YoY from a low base. Despite positive net absorption of 135,800 sq. ft. — ending four consecutive quarters of net withdrawal — overall warehouse rents fell a further 1.2% QoQ as landlords cut rates to improve occupancy, marking the ninth consecutive quarterly rental decline. Overall warehouse vacancy narrowed slightly by 0.3 pp to 12.8%.",
+                "source": "Hong Kong Figures – Industrial Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL's Q1 2026 report on Hong Kong's industrial market. New lease activity remained constrained, supported primarily by the construction and semiconductor industries. Prime warehouse vacancy reached 10.5% in Q1 2026. Net absorption was negative for the ninth consecutive quarter, and there were no completions in Q1 2026. Investment activity was underpinned by an en-bloc transaction at Kodak House I and acquisitions by the Urban Renewal Authority, with mainland Chinese investors accounting for approximately 15.6% of total investment volume.",
+                "source": "Hong Kong Industrial/Logistics Market Dynamics Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank's quarterly summary analyses the performance of Hong Kong's industrial property markets. The report covers the logistics and warehousing sectors, tracking vacancy, rental and investment trends. Hong Kong's logistics sector is noted for its strategic relevance in the context of Knight Frank's Asia-Pacific Outlook 2026, which highlights Hong Kong's low-altitude economy and its impact on logistics demand across the territory.",
+                "source": "Hong Kong Industrial Summary – Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Retail",
+            "savillsView": {
+              "summary": "Hong Kong's Tsim Sha Tsui retained its title as Asia's most expensive luxury retail location in the Savills ninth annual Global Luxury Retail Outlook, with annual rents of US$22,000 (approximately £16,160) per sq m — ranking as the world's second most expensive luxury retail strip after London's Bond Street (£19,228 per sq m). Hong Kong remained among the world's most active markets for new luxury store openings. The report noted slower rent growth in Hong Kong in 2025 compared to 2024's rebound. Prime yield: N/A. Prime rent: N/A.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "positive"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "Leasing volume in Hong Kong's core retail districts totalled 213,800 sq. ft. in Q1 2026, declining QoQ due to seasonal factors but rising YoY; fashion brands were the second most active trade at 22% of volume, their highest share since Q4 2016. Low vacancy in prime areas pushed high street shop rents up 0.9% QoQ — the fifteenth consecutive quarterly increase — with vacancy for core retail districts rising slightly to 6.8%, still near its lowest since early 2024. Mainland Chinese tea and coffee shops continued to expand across the market.",
+                "source": "Hong Kong Figures – Retail Q1 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL's Q1 2026 analysis of Hong Kong's retail property market. Retail leasing activity remained steady during the quarter. Prime shopping centre vacancy rose to 12.6% in Q1 2026. Investment volume dropped compared to Q4 2025, though the market has moved past its trough with retail sales recording sustained growth and high-street rents stabilising. Ongoing tenant reshuffling continued, with fresh concepts and F&B operators leading activity.",
+                "source": "Hong Kong Retail Market Dynamics Q1 2026"
+              }
+            ]
+          },
+          {
+            "sector": "Residential",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "CBRE",
+                "summary": "Hong Kong's residential property market recorded a significant broad-based rebound in April 2026, with total home sales value jumping 50.9% YoY to HK$63.7 billion and transaction volume rising 29.4% YoY to 7,368 units. The luxury segment surged with 87 units priced above HK$100 million transacted as of mid-April, representing approximately 135% YoY growth. CBRE projects full-year 2026 residential prices to rise approximately 8% to 10%, supported by easing supply pressures and developer confidence.",
+                "source": "Hong Kong Residential Insights May 2026"
+              },
+              {
+                "firm": "JLL",
+                "summary": "JLL's Q1 2026 overview of Hong Kong's residential market. Residential transaction volume rose 54.0% YoY in Q1 2026, with three residential sites tendered during the quarter. Luxury leasing and investment activity strengthened on the back of a broad market recovery, supported by easing financing conditions (HIBOR declining from 3.1% to 2.2%). The successful MTR Kam Sheung Road Phase Two tender reflected continued developer confidence in the Northern Metropolis.",
+                "source": "Hong Kong Residential Market Dynamics Q1 2026"
+              },
+              {
+                "firm": "Knight Frank",
+                "summary": "Hong Kong prime residential prices slipped 2.1% in 2025 per the PIRI 100, yet super-prime activity surged with 81 US$10 million+ transactions in Q4 — second globally only to Dubai. Morgan Stanley raised its 2026 Hong Kong home-price growth estimate to 12%, citing strong sell-through rates, declining inventory, and falling land supply. Momentum is driven by a resurgent IPO market, mainland Chinese wealth inflows, and expanded talent visa schemes.",
+                "source": "Hong Kong's Prime Market Turns a Corner"
+              }
+            ]
+          },
+          {
+            "sector": "Capital Markets",
+            "savillsView": {
+              "summary": "Savills research in progress. Our latest data indicates prime yield at N/A and prime rent at N/A. Full sector commentary will be published in the next research cycle.",
+              "primeYield": "N/A",
+              "primeRent": "N/A",
+              "outlook": "stable"
+            },
+            "competitorIntel": [
+              {
+                "firm": "Knight Frank",
+                "summary": "Knight Frank's monthly Hong Kong Investment Yield Guide provides a monthly update on prime yields across all commercial sectors and current market sentiment. The January 2026 edition reflects the market conditions entering 2026, covering office, retail, industrial and residential prime yield benchmarks across Hong Kong's key sub-markets including Central, Kowloon and the New Territories.",
+                "source": "Investment Yield Guide – January 2026 (Hong Kong)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]
